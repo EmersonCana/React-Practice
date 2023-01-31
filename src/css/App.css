@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Anton');
+
+.App {
+    position: absolute;
+    background-color: #343434;
+    max-width: 100%;
+    max-height: 100%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.page1 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0px;
+    top: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #FB5F02;
+    z-index: 2;
+}
+
+.page1 .button-group {
+    display: flex;
+    width: 16%;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 10px;
+}
+
+.splatter {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("../../public/splatter.png");
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.hero-body {
+    animation: fadeIn 1s;
+    position: relative;
+    font-size: 5em;
+    text-transform: uppercase;
+    font-family: Anton;
+    color: #FAAE02;
+    text-shadow: 5px 5px 5px #343434;
+}
+
+.hero-link {
+    animation: fadeIn 1s;
+    position: relative;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: Anton;
+    color: #FAAE02;
+    text-shadow: 5px 5px 5px #343434;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.hero-list {
+    margin-top: 20px;
+    text-align: center;
+}
+.hero-list li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.custom-button {
+    font-family: Anton;
+    text-transform: uppercase;
+    background-color: #FAAE02;
+    border-color: #343434;
+    border-radius: 50px;
+    width: 100%;
+    padding: 10px;
+}
+
+.custom-button:hover {
+    background-color: #FB5F02;
+    box-shadow: -5px 5px 5px 30 #343434;
+    color: white;
+}

@@ -1,0 +1,19 @@
+.header-main {
+    width: 100%;
+    height: 300;
+    background-color: #000;
+    color: white;
+}
+
+.main-body {
+    background-color: yellow;
+    width: 100%;
+    height: 100vh;
+}
+
+.footer-main {
+    width: 100%;
+    height: 300;
+    background-color: #000;
+    color: white;
+}
